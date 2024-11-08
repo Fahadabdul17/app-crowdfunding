@@ -1,5 +1,22 @@
-@section('contant')
-    <!-- Register Form Start -->
+@extends('frontend.layouts.app')
+
+
+@section('content')
+    <!-- Page Header Start -->
+  <div class="container-fluid page-header mb-5 py-5">
+    <div class="container">
+      <h1 class="display-3 text-white mb-3 animated slideInDown">Register</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb text-uppercase">
+          <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+          <li class="breadcrumb-item text-white active" aria-current="page">Register</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <!-- Register Form Start -->
   <div class="container-fluid px-0">
     <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s"">
             <div class=" row justify-content-center">
@@ -28,7 +45,7 @@
             </div>
             <button class="btn btn-primary w-100 py-3 rounded-pill shadow-sm" type="submit">Register</button>
           </form>
-          <p class="mt-4">Sudah punya akun? <a href="login.html" class="text-primary">Login di sini</a></p>
+          <p class="mt-4">Sudah punya akun? <a href="{{ url('/login') }}" class="text-primary">Login di sini</a></p>
         </div>
       </div>
     </div>
@@ -36,4 +53,4 @@
   </div>
   <!-- Register Form End -->
     
-@endsection
+@endsectionw
