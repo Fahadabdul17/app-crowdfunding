@@ -48,7 +48,7 @@
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
                     <div class="ms-3">
-                        <a href="{{ url('/login.html') }}" class="nav-item nav-link">
+                        <a href="{{ url('/login') }}" class="nav-item nav-link">
                             <h4 class="m-0 text-white">Login & Register</h4>
                         </a>
                     </div>
