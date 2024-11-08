@@ -1,10 +1,11 @@
-<!-- resources/views/layouts/app.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     @include('frontend.partials.head')
 </head>
 <body>
+
+
     @include('frontend.partials.navbar')
 
     <!-- Main Content Start -->
@@ -12,6 +13,7 @@
         @yield('content')
     </div>
     <!-- Main Content End -->
+
 
     @include('frontend.partials.footer')
 
